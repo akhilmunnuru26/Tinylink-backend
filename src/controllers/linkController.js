@@ -1,4 +1,4 @@
-// src/controllers/linkController.js
+
 const pool = require('../config/database');
 const { validateUrl, generateShortCode } = require('../utils/helpers');
 

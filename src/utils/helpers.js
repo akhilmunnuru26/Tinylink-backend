@@ -1,4 +1,3 @@
-// src/utils/helpers.js
 
 // Validate URL format
 const validateUrl = (url) => {

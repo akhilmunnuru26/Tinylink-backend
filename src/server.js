@@ -10,7 +10,6 @@ const { errorHandler, notFound } = require('./middleware/errorHandler');
 const app = express();
 const PORT = process.env.PORT || 5000;
 
-console.log('🔗 Tiny Link Backend is starting...',process.env.PORT,process.env.DATABASE_URL);
 
 // Middleware
 app.use(cors());

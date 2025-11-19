@@ -1,4 +1,3 @@
-// src/middleware/errorHandler.js
 
 // Global error handler
 const errorHandler = (err, req, res, next) => {
