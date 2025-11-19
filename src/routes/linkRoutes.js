@@ -10,8 +10,5 @@ const {
 
 // API Routes
 router.post('/api/links', createLink);
-router.get('/api/links', getAllLinks);
-router.get('/api/links/:code', getLinkStats);
-router.delete('/api/links/:code', deleteLink);
 
 module.exports = router;
